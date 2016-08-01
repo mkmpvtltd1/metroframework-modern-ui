@@ -51,6 +51,7 @@
             // 
             // pnlStatus
             // 
+            this.pnlStatus.BackColor = System.Drawing.SystemColors.Highlight;
             this.pnlStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlStatus.HorizontalScrollbarBarColor = true;
@@ -62,6 +63,7 @@
             this.pnlStatus.Size = new System.Drawing.Size(684, 30);
             this.pnlStatus.Style = MetroFramework.MetroColorStyle.Blue;
             this.pnlStatus.TabIndex = 4;
+            this.pnlStatus.UseCustomBackColor = true;
             this.pnlStatus.VerticalScrollbarBarColor = true;
             this.pnlStatus.VerticalScrollbarHighlightOnWheel = false;
             this.pnlStatus.VerticalScrollbarSize = 10;
@@ -76,7 +78,6 @@
             this.MaximizeBox = false;
             this.Movable = false;
             this.Name = "MainForm";
-            this.Opacity = 0.98D;
             this.Padding = new System.Windows.Forms.Padding(10, 60, 10, 2);
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.None;

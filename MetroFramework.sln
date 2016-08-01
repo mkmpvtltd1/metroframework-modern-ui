@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Fonts", "Met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Project", "MetroFramework.Project\MetroFramework.Project.csproj", "{D8B4F43A-CFEB-41BC-BFFE-206B1A91A69F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceForApi", "ServiceForApi\ServiceForApi.csproj", "{383D7856-ED0F-44ED-A1C2-B18567E353D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +68,14 @@ Global
 		{D8B4F43A-CFEB-41BC-BFFE-206B1A91A69F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D8B4F43A-CFEB-41BC-BFFE-206B1A91A69F}.Release|x86.ActiveCfg = Release|Any CPU
 		{D8B4F43A-CFEB-41BC-BFFE-206B1A91A69F}.Release|x86.Build.0 = Release|Any CPU
+		{383D7856-ED0F-44ED-A1C2-B18567E353D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383D7856-ED0F-44ED-A1C2-B18567E353D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383D7856-ED0F-44ED-A1C2-B18567E353D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{383D7856-ED0F-44ED-A1C2-B18567E353D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{383D7856-ED0F-44ED-A1C2-B18567E353D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383D7856-ED0F-44ED-A1C2-B18567E353D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383D7856-ED0F-44ED-A1C2-B18567E353D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{383D7856-ED0F-44ED-A1C2-B18567E353D0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿namespace MetroFramework.AnimateDemo
+﻿namespace MetroFramework.Project
 {
     partial class MainForm
     {
@@ -28,38 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.pnlMain = new MetroFramework.Controls.MetroPanel();
+            this.pnlStatus = new MetroFramework.Controls.MetroPanel();
             this.SuspendLayout();
             // 
-            // metroPanel1
+            // pnlMain
             // 
-            this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroPanel1.HorizontalScrollbarBarColor = true;
-            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(10, 60);
-            this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(684, 346);
-            this.metroPanel1.TabIndex = 0;
-            this.metroPanel1.VerticalScrollbarBarColor = true;
-            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 10;
+            this.pnlMain.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlMain.HorizontalScrollbarBarColor = true;
+            this.pnlMain.HorizontalScrollbarHighlightOnWheel = false;
+            this.pnlMain.HorizontalScrollbarSize = 10;
+            this.pnlMain.Location = new System.Drawing.Point(10, 58);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(684, 313);
+            this.pnlMain.TabIndex = 0;
+            this.pnlMain.VerticalScrollbarBarColor = true;
+            this.pnlMain.VerticalScrollbarHighlightOnWheel = false;
+            this.pnlMain.VerticalScrollbarSize = 10;
+            this.pnlMain.Resize += new System.EventHandler(this.metroPanel1_Resize);
+            // 
+            // pnlStatus
+            // 
+            this.pnlStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlStatus.HorizontalScrollbarBarColor = true;
+            this.pnlStatus.HorizontalScrollbarHighlightOnWheel = false;
+            this.pnlStatus.HorizontalScrollbarSize = 10;
+            this.pnlStatus.Location = new System.Drawing.Point(10, 374);
+            this.pnlStatus.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlStatus.Name = "pnlStatus";
+            this.pnlStatus.Size = new System.Drawing.Size(684, 30);
+            this.pnlStatus.Style = MetroFramework.MetroColorStyle.Blue;
+            this.pnlStatus.TabIndex = 4;
+            this.pnlStatus.VerticalScrollbarBarColor = true;
+            this.pnlStatus.VerticalScrollbarHighlightOnWheel = false;
+            this.pnlStatus.VerticalScrollbarSize = 10;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 406);
-            this.Controls.Add(this.metroPanel1);
+            this.Controls.Add(this.pnlStatus);
+            this.Controls.Add(this.pnlMain);
             this.MaximizeBox = false;
             this.Movable = false;
             this.Name = "MainForm";
             this.Opacity = 0.98D;
-            this.Padding = new System.Windows.Forms.Padding(10, 60, 10, 0);
+            this.Padding = new System.Windows.Forms.Padding(10, 60, 10, 2);
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.None;
             this.Style = MetroFramework.MetroColorStyle.Teal;
-            this.Text = "Start";
+            this.Text = "Login - TMS";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
@@ -67,7 +88,8 @@
 
         #endregion
 
-        private Controls.MetroPanel metroPanel1;
+        private Controls.MetroPanel pnlMain;
+        private Controls.MetroPanel pnlStatus;
     }
 }
 

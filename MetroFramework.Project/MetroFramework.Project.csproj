@@ -62,7 +62,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\TMS_Service\Reference.cs">
+    <Compile Include="Service References\Service_TMS\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -92,13 +92,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Service References\TMS_Service\item.xsd">
+    <None Include="Service References\Service_TMS\service.wsdl" />
+    <None Include="Service References\Service_TMS\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\TMS_Service\item1.xsd">
+    <None Include="Service References\Service_TMS\service1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\TMS_Service\TMS.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -117,19 +117,16 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\TMS_Service\" />
+    <WCFMetadataStorage Include="Service References\Service_TMS\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\TMS_Service\item.disco" />
+    <None Include="Service References\Service_TMS\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\TMS_Service\configuration91.svcinfo" />
+    <None Include="Service References\Service_TMS\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\TMS_Service\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\TMS_Service\Reference.svcmap">
+    <None Include="Service References\Service_TMS\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

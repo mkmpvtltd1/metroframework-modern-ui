@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MetroFramework.Project.TMS_Service {
+namespace MetroFramework.Project.Service_TMS {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="TMS_Service.ITMS")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Service_TMS.ITMS")]
     public interface ITMS {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITMS/Login", ReplyAction="http://tempuri.org/ITMS/LoginResponse")]
@@ -23,12 +23,12 @@ namespace MetroFramework.Project.TMS_Service {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ITMSChannel : MetroFramework.Project.TMS_Service.ITMS, System.ServiceModel.IClientChannel {
+    public interface ITMSChannel : MetroFramework.Project.Service_TMS.ITMS, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class TMSClient : System.ServiceModel.ClientBase<MetroFramework.Project.TMS_Service.ITMS>, MetroFramework.Project.TMS_Service.ITMS {
+    public partial class TMSClient : System.ServiceModel.ClientBase<MetroFramework.Project.Service_TMS.ITMS>, MetroFramework.Project.Service_TMS.ITMS {
         
         public TMSClient() {
         }

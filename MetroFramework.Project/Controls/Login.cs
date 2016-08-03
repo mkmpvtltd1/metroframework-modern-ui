@@ -54,7 +54,7 @@ namespace MetroFramework.Project
         {
             try
             {
-                TMS_Service.TMSClient obj = new TMS_Service.TMSClient();
+                Service_TMS.TMSClient obj = new Service_TMS.TMSClient();
                 bool login = obj.Login(txtUsername.Text, txtPassword.Text);
                 if (login)
                 {
